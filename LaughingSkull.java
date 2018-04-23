@@ -78,14 +78,14 @@ class running implements Runnable {
 			clearConsole();
 			LaughingSkull.skull1();
 			try {
-				Thread.sleep(500);
+				Thread.sleep(300);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 			clearConsole();
 			LaughingSkull.skull2();
 			try {
-				Thread.sleep(500);
+				Thread.sleep(300);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
