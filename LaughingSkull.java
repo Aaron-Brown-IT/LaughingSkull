@@ -100,7 +100,7 @@ class running implements Runnable {
 			if (os.contains("Windows")) {
 				new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
 			} else {
-				System.out.print("\033[H\033[2J");
+				System.out.print("\033[2J\033[3J\033[H");
 
 			}
 		} catch (final Exception e) {
